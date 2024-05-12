@@ -4,6 +4,18 @@ function identifyexecutor()
    return "Alysse Android"
 end
 
+CoreGui:SetCore("SendNotification", {
+    Title = "TianV1作者提示:",
+    Text = "此注入器为Alysse",
+    Duration = 10, 
+})
+
+CoreGui:SetCore("SendNotification", {
+    Title = "TianV1作者提示:",
+    Text = "您未获取密钥！",
+    Duration = 10, 
+})
+
 repeat task.wait() until KeySystemUI.Finished() or KeySystemUI.Closed
 if KeySystemUI.Finished() and KeySystemUI.Closed == false then
 local AlysseAndroid = Instance.new("ScreenGui")
