@@ -1,8 +1,5 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
+--VegaX脚本启动动画
+--by.LAT
 local VegaXAndroidUI = Instance.new("ScreenGui")
 local SettingsWindow = Instance.new("Frame")
 local WindowMainTitle = Instance.new("TextLabel")
